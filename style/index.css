@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared-style */
+.dark-1{
+    color: rgb(16, 15, 19);
+}
+.dark-2{
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+.dark-3{
+    color: rgb(106, 106, 138);
+}
+
+.display-flex{
+    display: flex;
+}
+/* nav styles */
+.nav-container {
+    margin-top: 25px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container ul {
+    display: flex;
+    gap: 45px;
+}
+.nav-container ul li {
+    list-style: none;
+}
+.nav-container ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.cart{
+    align-items: center;
+}
+/* banner */
+.banner-content{
+    /* max-width: 570px; */
+    margin: 0 auto;
+}
+.banner{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.font-color{
+    color: rgba(233, 90, 8, 1);
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 13px;
+}
+.banner-discription{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 13px;
+}
+.banner-img{
+    /* width: 570px; */
+    height: 370px;
+}
+
+/* main-section */
+.btn-primary{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 20px 80px;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+}
+
+.plant-content{
+    text-align: center;
+}
+.plant-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.plant-discription{
+    font-weight: 500px;
+    font-size: 22px;
+    margin-top: 16px;
+    margin-bottom: 49px;
+}
+
+.all-collection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+.collection{
+    text-align: center;
+    margin-bottom: 30px;
+}   
+.collection-name{
+    font-weight: 500px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.collection-price{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* flower-store */
+.flower-lover{
+    display: flex;
+    gap: 60px;
+    margin-top: 170px;
+    align-items: center;
+}
+.lover-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;;
+}
+.lover-discription{
+    font-weight: 400px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.flower-discription{
+    margin-top: 20px;
+}
+
+/* leatest-deals */
+.deals{
+    margin-top: 172px;
+    margin-bottom: 120px;
+}
+.deal-title{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.deal-discription{
+    font-weight: 400px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* section-4 */
+.section-4{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.section-41{
+    margin-bottom: 20px;
+}
+.section-4, .img-1{
+    border-radius: 14px;
+}
+
+/* footer */
+.footer-img{
+    width: 100%;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -400px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 50px;
+}
+.input-box{
+    display: flex; 
+    justify-content: center;
+    
+}
+/* media-queary */
+/* @media screen and (max-width: 576px) {
+   .hide {
+      display: none;
+   } 
+
+   .parent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .nav-container {
+      justify-content: center !important; 
+      gap: 20px; 
+      width: 100%;
+      padding: 0 15px; 
+   }
+
+   .nav-container ul {
+      justify-content: center;
+      gap: 15px;
+   }
+   .banner{
+    flex-direction: column-reverse;
+   }
+   .banner-content{
+        margin: 20px;
+
+   }
+} */
