@@ -485,4 +485,7 @@
     .btn-primary{
         padding: 10px;
     }
+    .last{
+        width: 440px;
+    }
 }
