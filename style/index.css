@@ -184,6 +184,7 @@
 /* footer */
 .footer-img{
     width: 100%;
+    height: 100%;
 }
 .footer-title{
     display: flex;
@@ -199,6 +200,9 @@
     display: flex; 
     justify-content: center;
     
+}
+.toha-input{
+    width: 644px;
 }
 /* media-queary */
 /* @media screen and (max-width: 576px) {
